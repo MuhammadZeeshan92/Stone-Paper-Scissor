@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #548687;
+}
+
+.msg-container {
+    height: 6vh;
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* border: 2px solid; */
+
+}
+
+.player-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.player-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;
+    align-items: center;
+}
+
+.options-player1 {
+    height: 23vh;
+    width: 30vh;
+    background-color: #ffffc7;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 1.5rem;
+    /* border: none; */
+}
+
+.options-player2 {
+    height: 23vh;
+    width: 30vh;
+    background-color: #ffffc7;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 1.5rem;
+}
+
+.selection-player1 {
+    height: 20vh;
+    width: 10vw;
+    background-color: #ffffc7;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 1.5rem;
+}
+
+.selection-player2 {
+    height: 20vh;
+    width: 10vw;
+    background-color: #ffffc7;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 1.5rem;
+}
+
+img {
+    height: 100%;
+    width: 60px;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.winner {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-game {
+    height: 2rem;
+    width: 6rem;
+    color: #fff;
+    background-color: #ffffc7;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+
+.points {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.hide1 {
+    display: none;
+}
+
+.h3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.h30{
+    margin: 1rem;
+}
+
+.button-continue{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.continue{
+    height: 2rem;
+    width: 6rem;
+    background-color: #ffffc7;
+}
